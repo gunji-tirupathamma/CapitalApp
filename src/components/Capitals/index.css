@@ -1,0 +1,65 @@
+/* Write your CSS here */
+* {
+  font-family: Roboto;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #93c5fd;
+  background-size: cover;
+  padding: 10px;
+  height: 100vh;
+  width: 100vw;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    align-items: center;
+  }
+}
+
+.country-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  height: 50vh;
+  width: 50vw;
+}
+
+.heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.selector {
+  width: 150px;
+  height: 30px;
+}
+.option-text {
+  color: #000000;
+  font-size: 15px;
+}
+.description {
+  color: #323f4b;
+  font-size: 20px;
+}
+
+.country {
+  color: #1e293b;
+  font-size: 30px;
+}
